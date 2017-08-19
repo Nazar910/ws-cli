@@ -1,6 +1,5 @@
 # WS-CLI
-
-## Install
+## Usage
 ### Clone repo 
 ```
 git clone https://github.com/Nazar910/ws-cli.git
