@@ -16,7 +16,7 @@ const url = `ws://${host}:${port}${path}`
 
 const ws = new WebSocket(url);
 
-ws.on('open', async () => {
+ws.on('open', () => {
     const { type, message } = program;
 
     console.log('Here');
@@ -24,4 +24,5 @@ ws.on('open', async () => {
         console.log('Message sent');
         ws.send(message);
     }
+    process.exit(1);
 });
