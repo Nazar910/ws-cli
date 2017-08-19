@@ -1,3 +1,4 @@
+'use strict';
 const program = require('commander');
 const WebSocket = require('ws');
 
